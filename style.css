@@ -1,0 +1,114 @@
+body {
+    background-color: #ffffff;
+    color: #111111;
+}
+
+.card {
+    background-color: #f4f4f4;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: red;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ef4444;
+    text-decoration: underline;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.hero {
+    text-align: center;
+}
+
+h1, h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.section p {
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.fact-list {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    margin-top: 2rem;
+    border-top: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+button {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid #888;
+    border-radius: 4px;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #ef4444;
+    border-color: #ef4444;
+}
+
+footer p {
+    margin-bottom: 0;
+}
