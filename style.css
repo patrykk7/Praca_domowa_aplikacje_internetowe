@@ -25,7 +25,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a:hover, body.dark a:hover {
     color: #ef4444;
     text-decoration: underline;
 }
@@ -111,4 +111,25 @@ button:hover {
 
 footer p {
     margin-bottom: 0;
+}
+
+body.dark {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark .card {
+    background-color: #222222;
+}
+
+body.dark a {
+    color: #ffffff;
+}
+
+body.dark footer {
+    border-top-color: #333;
+}
+
+html {
+    scroll-behavior: smooth;
 }
